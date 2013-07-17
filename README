@@ -1,0 +1,7 @@
+This my vim settings.It has taglist, omnicppcomlete, super tab and a std c++ tags(already adds in vimrc file);
+
+How to use:
+	1.git clone git@github.com:johnkeepmoving/my-vim-setting.git  ~/.vim/
+    2.The file 'vimrc' should be renamed '.vimrc' and put in ~
+
+That's it.Enjoy it
