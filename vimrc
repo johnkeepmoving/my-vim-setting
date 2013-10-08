@@ -108,6 +108,9 @@ let Tlist_Exit_OnlyWindow=1 "当taglist是最后一个分割窗口时，自动�
 let Tlist_Process_File_Always=1 "是否一直处理tags.1:处理;0:不处理。不是一直实时更新tags，因为没有必要
 let Tlist_Inc_Winwidth=0 
 
+
+map <F2> :NERDTree<CR> "按下F2就可以呼出了
+
 "set tags
 set tags=tags;
 set tags+=~/.vim/tags
@@ -129,7 +132,7 @@ set cscopequickfix=s-,c-,d-,i-,t-,e-
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-
+set expandtab
 "show line number
 set nu
 
