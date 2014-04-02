@@ -117,12 +117,12 @@ set tags+=~/.vim/tags
 set autochdir
 
 "set omni
-highlight Pmenu    guibg=darkgrey  guifg=black
-highlight PmenuSel guibg=lightgrey guifg=black
+"highlight Pmenu    guibg=darkgrey guifg=black
+"highlight PmenuSel guibg=lightgrey guifg=black
 
 "set super tab
-let g:SuperTabDefaultCompletionType="context"
-let g:SuperTabRetainCompletionType=2
+"let g:SuperTabDefaultCompletionType="context"
+"let g:SuperTabRetainCompletionType=2
 "let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
 "show cscope results with quickfix 
@@ -136,7 +136,7 @@ set expandtab
 "show line number
 set nu
 
-set nowrap "不自动换行
+set wrap "自动换行
 set hlsearch "高亮显示结果
 set incsearch "在输入要搜索的文字时，vim会实时匹配
 set backspace=indent,eol,start whichwrap+=<,>,[,] "允许退格键的使用
