@@ -1,6 +1,7 @@
 set nocompatible "不要vim模仿vi模式，建议设置，否则会有很多不兼容的问题
 syntax enable
 syntax on"打开高亮
+filetype plugin on
 
 if(has("win32") || has("win95") || has("win64") || has("win16")) "判定当前操作系统类型
     let g:iswindows=1
